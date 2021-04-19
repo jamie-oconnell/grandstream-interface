@@ -1,0 +1,1602 @@
+[
+  {
+    "ip": "172.27.5.1",
+    "original_mac": "c0:74:ad:16:a1:0b",
+    "mac": "c074ad16a1a"
+  },
+  {
+    "ip": "172.27.5.2",
+    "original_mac": "c0:74:ad:16:a0:eb",
+    "mac": "c074ad16a0ea"
+  },
+  {
+    "ip": "172.27.5.3",
+    "original_mac": "c0:74:ad:16:a2:93",
+    "mac": "c074ad16a292"
+  },
+  {
+    "ip": "172.27.5.5",
+    "original_mac": "c0:74:ad:16:a2:99",
+    "mac": "c074ad16a298"
+  },
+  {
+    "ip": "172.27.5.6",
+    "original_mac": "c0:74:ad:16:a0:db",
+    "mac": "c074ad16a0da"
+  },
+  {
+    "ip": "172.27.5.7",
+    "original_mac": "c0:74:ad:16:a1:0d",
+    "mac": "c074ad16a1c"
+  },
+  {
+    "ip": "172.27.5.8",
+    "original_mac": "c0:74:ad:16:a1:0f",
+    "mac": "c074ad16a1e"
+  },
+  {
+    "ip": "172.27.5.9",
+    "original_mac": "c0:74:ad:16:a2:9b",
+    "mac": "c074ad16a29a"
+  },
+  {
+    "ip": "172.27.5.10",
+    "original_mac": "c0:74:ad:16:a0:f5",
+    "mac": "c074ad16a0f4"
+  },
+  {
+    "ip": "172.27.5.11",
+    "original_mac": "c0:74:ad:16:a0:d5",
+    "mac": "c074ad16a0d4"
+  },
+  {
+    "ip": "172.27.5.12",
+    "original_mac": "c0:74:ad:16:a2:95",
+    "mac": "c074ad16a294"
+  },
+  {
+    "ip": "172.27.5.14",
+    "original_mac": "c0:74:ad:16:a2:9d",
+    "mac": "c074ad16a29c"
+  },
+  {
+    "ip": "172.27.5.15",
+    "original_mac": "00:04:f2:64:8c:64",
+    "mac": "0004f2648c63"
+  },
+  {
+    "ip": "172.27.5.16",
+    "original_mac": "00:04:f2:60:59:3a",
+    "mac": "0004f2605939"
+  },
+  {
+    "ip": "172.27.5.17",
+    "original_mac": "70:ca:9b:9e:21:10",
+    "mac": "70ca9b9e21f"
+  },
+  {
+    "ip": "172.27.5.18",
+    "original_mac": "00:04:f2:60:05:a8",
+    "mac": "0004f26005a7"
+  },
+  {
+    "ip": "172.27.5.19",
+    "original_mac": "00:04:f2:60:58:2b",
+    "mac": "0004f260582a"
+  },
+  {
+    "ip": "172.27.5.20",
+    "original_mac": "00:04:f2:60:58:21",
+    "mac": "0004f2605820"
+  },
+  {
+    "ip": "172.27.5.21",
+    "original_mac": "c4:93:00:00:7b:c4",
+    "mac": "c49300007bc3"
+  },
+  {
+    "ip": "172.27.5.23",
+    "original_mac": "00:04:f2:60:59:3e",
+    "mac": "0004f260593d"
+  },
+  {
+    "ip": "172.27.5.24",
+    "original_mac": "00:04:f2:60:59:3d",
+    "mac": "0004f260593c"
+  },
+  {
+    "ip": "172.27.5.26",
+    "original_mac": "00:04:f2:60:59:1c",
+    "mac": "0004f260591b"
+  },
+  {
+    "ip": "172.27.5.29",
+    "original_mac": "00:04:f2:60:59:24",
+    "mac": "0004f2605923"
+  },
+  {
+    "ip": "172.27.5.30",
+    "original_mac": "00:04:f2:60:5b:fb",
+    "mac": "0004f2605bfa"
+  },
+  {
+    "ip": "172.27.5.32",
+    "original_mac": "00:04:f2:60:58:b9",
+    "mac": "0004f26058b8"
+  },
+  {
+    "ip": "172.27.5.33",
+    "original_mac": "00:04:f2:60:59:20",
+    "mac": "0004f260591f"
+  },
+  {
+    "ip": "172.27.5.34",
+    "original_mac": "00:04:f2:60:59:33",
+    "mac": "0004f2605932"
+  },
+  {
+    "ip": "172.27.5.36",
+    "original_mac": "70:ca:9b:9e:08:1c",
+    "mac": "70ca9b9e081b"
+  },
+  {
+    "ip": "172.27.5.38",
+    "original_mac": "00:04:f2:64:90:01",
+    "mac": "0004f264900"
+  },
+  {
+    "ip": "172.27.5.41",
+    "original_mac": "00:04:f2:67:c5:ca",
+    "mac": "0004f267c5c9"
+  },
+  {
+    "ip": "172.27.5.42",
+    "original_mac": "00:04:f2:60:59:39",
+    "mac": "0004f2605938"
+  },
+  {
+    "ip": "172.27.5.45",
+    "original_mac": "00:04:f2:5d:c2:3a",
+    "mac": "0004f25dc239"
+  },
+  {
+    "ip": "172.27.5.47",
+    "original_mac": "00:04:f2:60:59:21",
+    "mac": "0004f2605920"
+  },
+  {
+    "ip": "172.27.5.48",
+    "original_mac": "00:04:f2:5d:c0:cc",
+    "mac": "0004f25dc0cb"
+  },
+  {
+    "ip": "172.27.5.49",
+    "original_mac": "c0:74:ad:16:a0:ef",
+    "mac": "c074ad16a0ee"
+  },
+  {
+    "ip": "172.27.5.51",
+    "original_mac": "00:04:f2:60:59:37",
+    "mac": "0004f2605936"
+  },
+  {
+    "ip": "172.27.5.52",
+    "original_mac": "00:04:f2:60:59:34",
+    "mac": "0004f2605933"
+  },
+  {
+    "ip": "172.27.5.54",
+    "original_mac": "c0:74:ad:16:ab:2d",
+    "mac": "c074ad16ab2c"
+  },
+  {
+    "ip": "172.27.5.57",
+    "original_mac": "c0:74:ad:16:a1:07",
+    "mac": "c074ad16a16"
+  },
+  {
+    "ip": "172.27.5.58",
+    "original_mac": "c0:74:ad:16:a2:a3",
+    "mac": "c074ad16a2a2"
+  },
+  {
+    "ip": "172.27.5.59",
+    "original_mac": "c0:74:ad:16:aa:0f",
+    "mac": "c074ad16aae"
+  },
+  {
+    "ip": "172.27.5.60",
+    "original_mac": "c0:74:ad:16:a9:e9",
+    "mac": "c074ad16a9e8"
+  },
+  {
+    "ip": "172.27.5.61",
+    "original_mac": "00:04:f2:60:59:38",
+    "mac": "0004f2605937"
+  },
+  {
+    "ip": "172.27.5.62",
+    "original_mac": "c0:74:ad:16:a5:47",
+    "mac": "c074ad16a546"
+  },
+  {
+    "ip": "172.27.5.63",
+    "original_mac": "c0:74:ad:16:a5:15",
+    "mac": "c074ad16a514"
+  },
+  {
+    "ip": "172.27.5.66",
+    "original_mac": "c0:74:ad:16:ab:41",
+    "mac": "c074ad16ab40"
+  },
+  {
+    "ip": "172.27.5.68",
+    "original_mac": "c0:74:ad:16:ab:39",
+    "mac": "c074ad16ab38"
+  },
+  {
+    "ip": "172.27.5.69",
+    "original_mac": "c0:74:ad:16:a1:3b",
+    "mac": "c074ad16a13a"
+  },
+  {
+    "ip": "172.27.5.70",
+    "original_mac": "c0:74:ad:16:a1:2f",
+    "mac": "c074ad16a12e"
+  },
+  {
+    "ip": "172.27.5.71",
+    "original_mac": "c0:74:ad:16:a5:33",
+    "mac": "c074ad16a532"
+  },
+  {
+    "ip": "172.27.5.73",
+    "original_mac": "c0:74:ad:16:a1:01",
+    "mac": "c074ad16a10"
+  },
+  {
+    "ip": "172.27.5.74",
+    "original_mac": "c0:74:ad:16:ab:43",
+    "mac": "c074ad16ab42"
+  },
+  {
+    "ip": "172.27.5.76",
+    "original_mac": "c0:74:ad:16:a9:75",
+    "mac": "c074ad16a974"
+  },
+  {
+    "ip": "172.27.5.77",
+    "original_mac": "c0:74:ad:16:a1:1d",
+    "mac": "c074ad16a11c"
+  },
+  {
+    "ip": "172.27.5.79",
+    "original_mac": "c0:74:ad:16:a5:2d",
+    "mac": "c074ad16a52c"
+  },
+  {
+    "ip": "172.27.5.80",
+    "original_mac": "c0:74:ad:16:a4:d3",
+    "mac": "c074ad16a4d2"
+  },
+  {
+    "ip": "172.27.5.82",
+    "original_mac": "c0:74:ad:16:ab:3d",
+    "mac": "c074ad16ab3c"
+  },
+  {
+    "ip": "172.27.5.83",
+    "original_mac": "c0:74:ad:16:a2:bb",
+    "mac": "c074ad16a2ba"
+  },
+  {
+    "ip": "172.27.5.84",
+    "original_mac": "c0:74:ad:16:a9:9b",
+    "mac": "c074ad16a99a"
+  },
+  {
+    "ip": "172.27.5.85",
+    "original_mac": "c0:74:ad:16:a5:57",
+    "mac": "c074ad16a556"
+  },
+  {
+    "ip": "172.27.5.86",
+    "original_mac": "c0:74:ad:16:a5:6b",
+    "mac": "c074ad16a56a"
+  },
+  {
+    "ip": "172.27.5.87",
+    "original_mac": "c0:74:ad:16:a9:87",
+    "mac": "c074ad16a986"
+  },
+  {
+    "ip": "172.27.5.88",
+    "original_mac": "c0:74:ad:16:a9:97",
+    "mac": "c074ad16a996"
+  },
+  {
+    "ip": "172.27.5.89",
+    "original_mac": "c0:74:ad:16:a9:95",
+    "mac": "c074ad16a994"
+  },
+  {
+    "ip": "172.27.5.90",
+    "original_mac": "c0:74:ad:16:a9:69",
+    "mac": "c074ad16a968"
+  },
+  {
+    "ip": "172.27.5.94",
+    "original_mac": "c0:74:ad:16:aa:f3",
+    "mac": "c074ad16aaf2"
+  },
+  {
+    "ip": "172.27.5.95",
+    "original_mac": "c0:74:ad:16:a9:9d",
+    "mac": "c074ad16a99c"
+  },
+  {
+    "ip": "172.27.5.96",
+    "original_mac": "c0:74:ad:16:a9:7d",
+    "mac": "c074ad16a97c"
+  },
+  {
+    "ip": "172.27.5.97",
+    "original_mac": "c0:74:ad:16:a0:bd",
+    "mac": "c074ad16a0bc"
+  },
+  {
+    "ip": "172.27.5.98",
+    "original_mac": "c0:74:ad:16:a2:97",
+    "mac": "c074ad16a296"
+  },
+  {
+    "ip": "172.27.5.101",
+    "original_mac": "c0:74:ad:16:a9:a5",
+    "mac": "c074ad16a9a4"
+  },
+  {
+    "ip": "172.27.5.103",
+    "original_mac": "c0:74:ad:16:ab:17",
+    "mac": "c074ad16ab16"
+  },
+  {
+    "ip": "172.27.5.104",
+    "original_mac": "c0:74:ad:16:a0:b3",
+    "mac": "c074ad16a0b2"
+  },
+  {
+    "ip": "172.27.5.105",
+    "original_mac": "c0:74:ad:16:a8:11",
+    "mac": "c074ad16a810"
+  },
+  {
+    "ip": "172.27.5.106",
+    "original_mac": "c0:74:ad:16:a9:91",
+    "mac": "c074ad16a990"
+  },
+  {
+    "ip": "172.27.5.107",
+    "original_mac": "c0:74:ad:16:a2:9f",
+    "mac": "c074ad16a29e"
+  },
+  {
+    "ip": "172.27.5.108",
+    "original_mac": "c0:74:ad:16:a2:af",
+    "mac": "c074ad16a2ae"
+  },
+  {
+    "ip": "172.27.5.109",
+    "original_mac": "c0:74:ad:16:a0:9f",
+    "mac": "c074ad16a09e"
+  },
+  {
+    "ip": "172.27.5.111",
+    "original_mac": "c0:74:ad:16:a1:15",
+    "mac": "c074ad16a114"
+  },
+  {
+    "ip": "172.27.5.112",
+    "original_mac": "c0:74:ad:16:a9:8b",
+    "mac": "c074ad16a98a"
+  },
+  {
+    "ip": "172.27.5.113",
+    "original_mac": "c0:74:ad:16:a9:b1",
+    "mac": "c074ad16a9b0"
+  },
+  {
+    "ip": "172.27.5.114",
+    "original_mac": "c0:74:ad:16:ab:91",
+    "mac": "c074ad16ab90"
+  },
+  {
+    "ip": "172.27.5.116",
+    "original_mac": "c0:74:ad:16:a9:33",
+    "mac": "c074ad16a932"
+  },
+  {
+    "ip": "172.27.5.117",
+    "original_mac": "c0:74:ad:16:ab:1b",
+    "mac": "c074ad16ab1a"
+  },
+  {
+    "ip": "172.27.5.119",
+    "original_mac": "c0:74:ad:16:a9:7b",
+    "mac": "c074ad16a97a"
+  },
+  {
+    "ip": "172.27.5.120",
+    "original_mac": "c0:74:ad:16:a9:6b",
+    "mac": "c074ad16a96a"
+  },
+  {
+    "ip": "172.27.5.121",
+    "original_mac": "c0:74:ad:16:a9:f3",
+    "mac": "c074ad16a9f2"
+  },
+  {
+    "ip": "172.27.5.122",
+    "original_mac": "c0:74:ad:16:ab:87",
+    "mac": "c074ad16ab86"
+  },
+  {
+    "ip": "172.27.5.124",
+    "original_mac": "c0:74:ad:16:ab:93",
+    "mac": "c074ad16ab92"
+  },
+  {
+    "ip": "172.27.5.125",
+    "original_mac": "c0:74:ad:16:a9:4f",
+    "mac": "c074ad16a94e"
+  },
+  {
+    "ip": "172.27.5.127",
+    "original_mac": "c0:74:ad:16:a9:71",
+    "mac": "c074ad16a970"
+  },
+  {
+    "ip": "172.27.5.128",
+    "original_mac": "c0:74:ad:16:ab:59",
+    "mac": "c074ad16ab58"
+  },
+  {
+    "ip": "172.27.5.129",
+    "original_mac": "c0:74:ad:16:a9:77",
+    "mac": "c074ad16a976"
+  },
+  {
+    "ip": "172.27.5.130",
+    "original_mac": "c0:74:ad:16:a9:ed",
+    "mac": "c074ad16a9ec"
+  },
+  {
+    "ip": "172.27.5.131",
+    "original_mac": "c0:74:ad:16:a9:73",
+    "mac": "c074ad16a972"
+  },
+  {
+    "ip": "172.27.5.132",
+    "original_mac": "c0:74:ad:16:a9:83",
+    "mac": "c074ad16a982"
+  },
+  {
+    "ip": "172.27.5.133",
+    "original_mac": "c0:74:ad:16:a9:eb",
+    "mac": "c074ad16a9ea"
+  },
+  {
+    "ip": "172.27.5.134",
+    "original_mac": "c0:74:ad:16:aa:f5",
+    "mac": "c074ad16aaf4"
+  },
+  {
+    "ip": "172.27.5.135",
+    "original_mac": "c0:74:ad:16:ab:19",
+    "mac": "c074ad16ab18"
+  },
+  {
+    "ip": "172.27.5.136",
+    "original_mac": "c0:74:ad:16:ab:51",
+    "mac": "c074ad16ab50"
+  },
+  {
+    "ip": "172.27.5.137",
+    "original_mac": "c0:74:ad:16:ab:57",
+    "mac": "c074ad16ab56"
+  },
+  {
+    "ip": "172.27.5.138",
+    "original_mac": "c0:74:ad:16:aa:cf",
+    "mac": "c074ad16aace"
+  },
+  {
+    "ip": "172.27.5.139",
+    "original_mac": "c0:74:ad:16:aa:f9",
+    "mac": "c074ad16aaf8"
+  },
+  {
+    "ip": "172.27.5.140",
+    "original_mac": "c0:74:ad:16:a9:65",
+    "mac": "c074ad16a964"
+  },
+  {
+    "ip": "172.27.5.141",
+    "original_mac": "c0:74:ad:16:ab:0b",
+    "mac": "c074ad16aba"
+  },
+  {
+    "ip": "172.27.5.142",
+    "original_mac": "c0:74:ad:16:ab:37",
+    "mac": "c074ad16ab36"
+  },
+  {
+    "ip": "172.27.5.143",
+    "original_mac": "c0:74:ad:16:a9:7f",
+    "mac": "c074ad16a97e"
+  },
+  {
+    "ip": "172.27.5.144",
+    "original_mac": "c0:74:ad:16:a9:79",
+    "mac": "c074ad16a978"
+  },
+  {
+    "ip": "172.27.5.145",
+    "original_mac": "c0:74:ad:16:a8:e1",
+    "mac": "c074ad16a8e0"
+  },
+  {
+    "ip": "172.27.5.146",
+    "original_mac": "c0:74:ad:16:ab:5b",
+    "mac": "c074ad16ab5a"
+  },
+  {
+    "ip": "172.27.5.148",
+    "original_mac": "c0:74:ad:16:aa:e7",
+    "mac": "c074ad16aae6"
+  },
+  {
+    "ip": "172.27.5.149",
+    "original_mac": "c0:74:ad:16:a0:c5",
+    "mac": "c074ad16a0c4"
+  },
+  {
+    "ip": "172.27.5.150",
+    "original_mac": "c0:74:ad:16:ab:11",
+    "mac": "c074ad16ab10"
+  },
+  {
+    "ip": "172.27.5.151",
+    "original_mac": "c0:74:ad:16:ab:89",
+    "mac": "c074ad16ab88"
+  },
+  {
+    "ip": "172.27.5.152",
+    "original_mac": "c0:74:ad:16:aa:ef",
+    "mac": "c074ad16aaee"
+  },
+  {
+    "ip": "172.27.5.153",
+    "original_mac": "c0:74:ad:16:a0:c7",
+    "mac": "c074ad16a0c6"
+  },
+  {
+    "ip": "172.27.5.154",
+    "original_mac": "c0:74:ad:16:a9:c5",
+    "mac": "c074ad16a9c4"
+  },
+  {
+    "ip": "172.27.5.155",
+    "original_mac": "c0:74:ad:16:a9:cd",
+    "mac": "c074ad16a9cc"
+  },
+  {
+    "ip": "172.27.5.157",
+    "original_mac": "c0:74:ad:16:a8:93",
+    "mac": "c074ad16a892"
+  },
+  {
+    "ip": "172.27.5.158",
+    "original_mac": "c0:74:ad:16:a9:67",
+    "mac": "c074ad16a966"
+  },
+  {
+    "ip": "172.27.5.159",
+    "original_mac": "c0:74:ad:16:a0:cb",
+    "mac": "c074ad16a0ca"
+  },
+  {
+    "ip": "172.27.5.160",
+    "original_mac": "c0:74:ad:16:a9:6f",
+    "mac": "c074ad16a96e"
+  },
+  {
+    "ip": "172.27.5.161",
+    "original_mac": "c0:74:ad:16:a0:bb",
+    "mac": "c074ad16a0ba"
+  },
+  {
+    "ip": "172.27.5.162",
+    "original_mac": "c0:74:ad:16:aa:ed",
+    "mac": "c074ad16aaec"
+  },
+  {
+    "ip": "172.27.5.166",
+    "original_mac": "c0:74:ad:16:aa:c3",
+    "mac": "c074ad16aac2"
+  },
+  {
+    "ip": "172.27.5.169",
+    "original_mac": "c0:74:ad:16:a0:9d",
+    "mac": "c074ad16a09c"
+  },
+  {
+    "ip": "172.27.5.170",
+    "original_mac": "c0:74:ad:16:a0:c9",
+    "mac": "c074ad16a0c8"
+  },
+  {
+    "ip": "172.27.5.171",
+    "original_mac": "c0:74:ad:16:a0:d7",
+    "mac": "c074ad16a0d6"
+  },
+  {
+    "ip": "172.27.5.173",
+    "original_mac": "c0:74:ad:16:a0:ff",
+    "mac": "c074ad16a0fe"
+  },
+  {
+    "ip": "172.27.5.174",
+    "original_mac": "c0:74:ad:16:a1:03",
+    "mac": "c074ad16a12"
+  },
+  {
+    "ip": "172.27.5.175",
+    "original_mac": "c0:74:ad:16:a0:a7",
+    "mac": "c074ad16a0a6"
+  },
+  {
+    "ip": "172.27.5.177",
+    "original_mac": "c0:74:ad:16:a0:fb",
+    "mac": "c074ad16a0fa"
+  },
+  {
+    "ip": "172.27.5.180",
+    "original_mac": "c0:74:ad:16:a0:f7",
+    "mac": "c074ad16a0f6"
+  },
+  {
+    "ip": "172.27.5.181",
+    "original_mac": "c0:74:ad:16:a9:8d",
+    "mac": "c074ad16a98c"
+  },
+  {
+    "ip": "172.27.5.182",
+    "original_mac": "c0:74:ad:16:a5:c3",
+    "mac": "c074ad16a5c2"
+  },
+  {
+    "ip": "172.27.5.183",
+    "original_mac": "c0:74:ad:16:a0:a5",
+    "mac": "c074ad16a0a4"
+  },
+  {
+    "ip": "172.27.5.184",
+    "original_mac": "c0:74:ad:16:a9:b5",
+    "mac": "c074ad16a9b4"
+  },
+  {
+    "ip": "172.27.5.187",
+    "original_mac": "c0:74:ad:16:ab:7f",
+    "mac": "c074ad16ab7e"
+  },
+  {
+    "ip": "172.27.5.188",
+    "original_mac": "c0:74:ad:16:a0:df",
+    "mac": "c074ad16a0de"
+  },
+  {
+    "ip": "172.27.5.190",
+    "original_mac": "c0:74:ad:16:a0:e1",
+    "mac": "c074ad16a0e0"
+  },
+  {
+    "ip": "172.27.5.191",
+    "original_mac": "c0:74:ad:16:ab:21",
+    "mac": "c074ad16ab20"
+  },
+  {
+    "ip": "172.27.5.192",
+    "original_mac": "c0:74:ad:16:a0:ab",
+    "mac": "c074ad16a0aa"
+  },
+  {
+    "ip": "172.27.5.193",
+    "original_mac": "c0:74:ad:16:ab:e5",
+    "mac": "c074ad16abe4"
+  },
+  {
+    "ip": "172.27.5.194",
+    "original_mac": "c0:74:ad:16:a9:9f",
+    "mac": "c074ad16a99e"
+  },
+  {
+    "ip": "172.27.5.196",
+    "original_mac": "c0:74:ad:16:a0:a3",
+    "mac": "c074ad16a0a2"
+  },
+  {
+    "ip": "172.27.5.199",
+    "original_mac": "c0:74:ad:16:a2:b5",
+    "mac": "c074ad16a2b4"
+  },
+  {
+    "ip": "172.27.5.200",
+    "original_mac": "c0:74:ad:16:a1:2b",
+    "mac": "c074ad16a12a"
+  },
+  {
+    "ip": "172.27.5.201",
+    "original_mac": "c0:74:ad:16:a2:e7",
+    "mac": "c074ad16a2e6"
+  },
+  {
+    "ip": "172.27.5.202",
+    "original_mac": "c0:74:ad:16:a0:a1",
+    "mac": "c074ad16a0a0"
+  },
+  {
+    "ip": "172.27.5.204",
+    "original_mac": "c0:74:ad:16:a1:29",
+    "mac": "c074ad16a128"
+  },
+  {
+    "ip": "172.27.5.206",
+    "original_mac": "c0:74:ad:16:a1:1f",
+    "mac": "c074ad16a11e"
+  },
+  {
+    "ip": "172.27.5.208",
+    "original_mac": "c0:74:ad:16:ab:ed",
+    "mac": "c074ad16abec"
+  },
+  {
+    "ip": "172.27.5.210",
+    "original_mac": "c0:74:ad:16:a0:cf",
+    "mac": "c074ad16a0ce"
+  },
+  {
+    "ip": "172.27.5.211",
+    "original_mac": "c0:74:ad:16:a2:89",
+    "mac": "c074ad16a288"
+  },
+  {
+    "ip": "172.27.5.212",
+    "original_mac": "c0:74:ad:16:a1:09",
+    "mac": "c074ad16a18"
+  },
+  {
+    "ip": "172.27.5.214",
+    "original_mac": "c0:74:ad:16:a2:e1",
+    "mac": "c074ad16a2e0"
+  },
+  {
+    "ip": "172.27.5.215",
+    "original_mac": "c0:74:ad:16:a2:df",
+    "mac": "c074ad16a2de"
+  },
+  {
+    "ip": "172.27.5.216",
+    "original_mac": "c0:74:ad:16:a1:23",
+    "mac": "c074ad16a122"
+  },
+  {
+    "ip": "172.27.5.218",
+    "original_mac": "c0:74:ad:25:18:3f",
+    "mac": "c074ad25183e"
+  },
+  {
+    "ip": "172.27.5.219",
+    "original_mac": "c0:74:ad:16:aa:25",
+    "mac": "c074ad16aa24"
+  },
+  {
+    "ip": "172.27.5.220",
+    "original_mac": "c0:74:ad:25:18:47",
+    "mac": "c074ad251846"
+  },
+  {
+    "ip": "172.27.5.222",
+    "original_mac": "c0:74:ad:16:aa:19",
+    "mac": "c074ad16aa18"
+  },
+  {
+    "ip": "172.27.5.226",
+    "original_mac": "c0:74:ad:16:aa:21",
+    "mac": "c074ad16aa20"
+  },
+  {
+    "ip": "172.27.5.228",
+    "original_mac": "00:0b:82:f2:36:b1",
+    "mac": "000b82f236b0"
+  },
+  {
+    "ip": "172.27.5.229",
+    "original_mac": "00:0b:82:f2:36:d7",
+    "mac": "000b82f236d6"
+  },
+  {
+    "ip": "172.27.5.230",
+    "original_mac": "c0:74:ad:16:aa:0d",
+    "mac": "c074ad16aac"
+  },
+  {
+    "ip": "172.27.5.234",
+    "original_mac": "00:0b:82:f2:36:d5",
+    "mac": "000b82f236d4"
+  },
+  {
+    "ip": "172.27.5.235",
+    "original_mac": "00:0b:82:f2:36:c9",
+    "mac": "000b82f236c8"
+  },
+  {
+    "ip": "172.27.5.236",
+    "original_mac": "00:0b:82:f2:36:c5",
+    "mac": "000b82f236c4"
+  },
+  {
+    "ip": "172.27.5.237",
+    "original_mac": "c0:74:ad:16:aa:1b",
+    "mac": "c074ad16aa1a"
+  },
+  {
+    "ip": "172.27.5.243",
+    "original_mac": "00:0b:82:f2:35:41",
+    "mac": "000b82f23540"
+  },
+  {
+    "ip": "172.27.5.244",
+    "original_mac": "00:0b:82:f2:35:3d",
+    "mac": "000b82f2353c"
+  },
+  {
+    "ip": "172.27.5.245",
+    "original_mac": "00:0b:82:f2:35:43",
+    "mac": "000b82f23542"
+  },
+  {
+    "ip": "172.27.5.246",
+    "original_mac": "00:0b:82:f2:37:33",
+    "mac": "000b82f23732"
+  },
+  {
+    "ip": "172.27.5.247",
+    "original_mac": "00:0b:82:f2:35:47",
+    "mac": "000b82f23546"
+  },
+  {
+    "ip": "172.27.5.250",
+    "original_mac": "c0:74:ad:25:18:2d",
+    "mac": "c074ad25182c"
+  },
+  {
+    "ip": "172.27.5.251",
+    "original_mac": "c0:74:ad:25:17:e1",
+    "mac": "c074ad2517e0"
+  },
+  {
+    "ip": "172.27.5.253",
+    "original_mac": "00:0b:82:f2:37:31",
+    "mac": "000b82f23730"
+  },
+  {
+    "ip": "172.27.5.254",
+    "original_mac": "c0:74:ad:16:ab:b7",
+    "mac": "c074ad16abb6"
+  },
+  {
+    "ip": "172.27.5.255",
+    "original_mac": "c0:74:ad:25:18:51",
+    "mac": "c074ad251850"
+  },
+  {
+    "ip": "172.27.6.0",
+    "original_mac": "c0:74:ad:25:17:e5",
+    "mac": "c074ad2517e4"
+  },
+  {
+    "ip": "172.27.6.1",
+    "original_mac": "c0:74:ad:16:ab:c1",
+    "mac": "c074ad16abc0"
+  },
+  {
+    "ip": "172.27.6.3",
+    "original_mac": "c0:74:ad:22:13:23",
+    "mac": "c074ad221322"
+  },
+  {
+    "ip": "172.27.6.4",
+    "original_mac": "c0:74:ad:16:ab:c7",
+    "mac": "c074ad16abc6"
+  },
+  {
+    "ip": "172.27.6.6",
+    "original_mac": "c0:74:ad:16:ab:c9",
+    "mac": "c074ad16abc8"
+  },
+  {
+    "ip": "172.27.6.9",
+    "original_mac": "c0:74:ad:16:a5:fb",
+    "mac": "c074ad16a5fa"
+  },
+  {
+    "ip": "172.27.6.11",
+    "original_mac": "00:0b:82:f2:37:2d",
+    "mac": "000b82f2372c"
+  },
+  {
+    "ip": "172.27.6.13",
+    "original_mac": "00:0b:82:f2:37:25",
+    "mac": "000b82f23724"
+  },
+  {
+    "ip": "172.27.6.15",
+    "original_mac": "00:0b:82:f2:37:2f",
+    "mac": "000b82f2372e"
+  },
+  {
+    "ip": "172.27.6.18",
+    "original_mac": "c0:74:ad:16:a1:2d",
+    "mac": "c074ad16a12c"
+  },
+  {
+    "ip": "172.27.6.19",
+    "original_mac": "c0:74:ad:16:a1:4b",
+    "mac": "c074ad16a14a"
+  },
+  {
+    "ip": "172.27.6.22",
+    "original_mac": "00:0b:82:f2:34:49",
+    "mac": "000b82f23448"
+  },
+  {
+    "ip": "172.27.6.24",
+    "original_mac": "00:0b:82:f2:34:51",
+    "mac": "000b82f23450"
+  },
+  {
+    "ip": "172.27.6.25",
+    "original_mac": "00:0b:82:f2:34:5d",
+    "mac": "000b82f2345c"
+  },
+  {
+    "ip": "172.27.6.26",
+    "original_mac": "00:0b:82:f2:34:61",
+    "mac": "000b82f23460"
+  },
+  {
+    "ip": "172.27.6.30",
+    "original_mac": "00:0b:82:f2:34:59",
+    "mac": "000b82f23458"
+  },
+  {
+    "ip": "172.27.6.31",
+    "original_mac": "00:0b:82:f2:34:4f",
+    "mac": "000b82f2344e"
+  },
+  {
+    "ip": "172.27.6.36",
+    "original_mac": "c0:74:ad:16:a6:33",
+    "mac": "c074ad16a632"
+  },
+  {
+    "ip": "172.27.6.37",
+    "original_mac": "c0:74:ad:16:a6:3b",
+    "mac": "c074ad16a63a"
+  },
+  {
+    "ip": "172.27.6.40",
+    "original_mac": "c0:74:ad:16:a6:31",
+    "mac": "c074ad16a630"
+  },
+  {
+    "ip": "172.27.6.42",
+    "original_mac": "c0:74:ad:16:a0:b1",
+    "mac": "c074ad16a0b0"
+  },
+  {
+    "ip": "172.27.6.44",
+    "original_mac": "c0:74:ad:16:a1:27",
+    "mac": "c074ad16a126"
+  },
+  {
+    "ip": "172.27.6.46",
+    "original_mac": "c0:74:ad:16:a9:df",
+    "mac": "c074ad16a9de"
+  },
+  {
+    "ip": "172.27.6.48",
+    "original_mac": "c0:74:ad:16:a9:e5",
+    "mac": "c074ad16a9e4"
+  },
+  {
+    "ip": "172.27.6.49",
+    "original_mac": "c0:74:ad:16:a9:d7",
+    "mac": "c074ad16a9d6"
+  },
+  {
+    "ip": "172.27.6.50",
+    "original_mac": "c0:74:ad:16:a2:d7",
+    "mac": "c074ad16a2d6"
+  },
+  {
+    "ip": "172.27.6.51",
+    "original_mac": "c0:74:ad:16:a2:c5",
+    "mac": "c074ad16a2c4"
+  },
+  {
+    "ip": "172.27.6.53",
+    "original_mac": "c0:74:ad:16:a9:f1",
+    "mac": "c074ad16a9f0"
+  },
+  {
+    "ip": "172.27.6.54",
+    "original_mac": "c0:74:ad:16:a2:d5",
+    "mac": "c074ad16a2d4"
+  },
+  {
+    "ip": "172.27.6.55",
+    "original_mac": "c0:74:ad:16:a2:8d",
+    "mac": "c074ad16a28c"
+  },
+  {
+    "ip": "172.27.6.56",
+    "original_mac": "c0:74:ad:16:a2:37",
+    "mac": "c074ad16a236"
+  },
+  {
+    "ip": "172.27.6.58",
+    "original_mac": "c0:74:ad:16:a8:59",
+    "mac": "c074ad16a858"
+  },
+  {
+    "ip": "172.27.6.60",
+    "original_mac": "c0:74:ad:16:a1:3f",
+    "mac": "c074ad16a13e"
+  },
+  {
+    "ip": "172.27.6.61",
+    "original_mac": "c0:74:ad:16:a8:37",
+    "mac": "c074ad16a836"
+  },
+  {
+    "ip": "172.27.6.62",
+    "original_mac": "c0:74:ad:16:a8:5b",
+    "mac": "c074ad16a85a"
+  },
+  {
+    "ip": "172.27.6.63",
+    "original_mac": "c0:74:ad:16:a8:51",
+    "mac": "c074ad16a850"
+  },
+  {
+    "ip": "172.27.6.65",
+    "original_mac": "c0:74:ad:16:a9:e7",
+    "mac": "c074ad16a9e6"
+  },
+  {
+    "ip": "172.27.6.68",
+    "original_mac": "c0:74:ad:16:ab:3b",
+    "mac": "c074ad16ab3a"
+  },
+  {
+    "ip": "172.27.6.69",
+    "original_mac": "c0:74:ad:16:ab:2f",
+    "mac": "c074ad16ab2e"
+  },
+  {
+    "ip": "172.27.6.70",
+    "original_mac": "c0:74:ad:16:ab:3f",
+    "mac": "c074ad16ab3e"
+  },
+  {
+    "ip": "172.27.6.71",
+    "original_mac": "c0:74:ad:16:ab:4f",
+    "mac": "c074ad16ab4e"
+  },
+  {
+    "ip": "172.27.6.73",
+    "original_mac": "c0:74:ad:16:ab:45",
+    "mac": "c074ad16ab44"
+  },
+  {
+    "ip": "172.27.6.74",
+    "original_mac": "c0:74:ad:16:a9:5b",
+    "mac": "c074ad16a95a"
+  },
+  {
+    "ip": "172.27.6.75",
+    "original_mac": "c0:74:ad:16:a9:4d",
+    "mac": "c074ad16a94c"
+  },
+  {
+    "ip": "172.27.6.76",
+    "original_mac": "c0:74:ad:16:a9:51",
+    "mac": "c074ad16a950"
+  },
+  {
+    "ip": "172.27.6.77",
+    "original_mac": "c0:74:ad:16:a9:43",
+    "mac": "c074ad16a942"
+  },
+  {
+    "ip": "172.27.6.78",
+    "original_mac": "c0:74:ad:16:a9:59",
+    "mac": "c074ad16a958"
+  },
+  {
+    "ip": "172.27.6.79",
+    "original_mac": "c0:74:ad:16:a9:53",
+    "mac": "c074ad16a952"
+  },
+  {
+    "ip": "172.27.6.80",
+    "original_mac": "c0:74:ad:16:a0:ed",
+    "mac": "c074ad16a0ec"
+  },
+  {
+    "ip": "172.27.6.82",
+    "original_mac": "c0:74:ad:16:a0:d1",
+    "mac": "c074ad16a0d0"
+  },
+  {
+    "ip": "172.27.6.83",
+    "original_mac": "c0:74:ad:16:a0:e3",
+    "mac": "c074ad16a0e2"
+  },
+  {
+    "ip": "172.27.6.87",
+    "original_mac": "c0:74:ad:16:a9:93",
+    "mac": "c074ad16a992"
+  },
+  {
+    "ip": "172.27.6.89",
+    "original_mac": "c0:74:ad:16:a9:a9",
+    "mac": "c074ad16a9a8"
+  },
+  {
+    "ip": "172.27.6.93",
+    "original_mac": "c0:74:ad:16:a9:3d",
+    "mac": "c074ad16a93c"
+  },
+  {
+    "ip": "172.27.6.95",
+    "original_mac": "c0:74:ad:16:a0:a9",
+    "mac": "c074ad16a0a8"
+  },
+  {
+    "ip": "172.27.6.96",
+    "original_mac": "c0:74:ad:16:a0:c3",
+    "mac": "c074ad16a0c2"
+  },
+  {
+    "ip": "172.27.6.98",
+    "original_mac": "c0:74:ad:16:a9:a1",
+    "mac": "c074ad16a9a0"
+  },
+  {
+    "ip": "172.27.6.99",
+    "original_mac": "c0:74:ad:16:a9:5d",
+    "mac": "c074ad16a95c"
+  },
+  {
+    "ip": "172.27.6.101",
+    "original_mac": "c0:74:ad:16:a0:ad",
+    "mac": "c074ad16a0ac"
+  },
+  {
+    "ip": "172.27.6.104",
+    "original_mac": "c4:93:00:00:7a:6b",
+    "mac": "c49300007a6a"
+  },
+  {
+    "ip": "172.27.6.107",
+    "original_mac": "c0:74:ad:16:a2:ad",
+    "mac": "c074ad16a2ac"
+  },
+  {
+    "ip": "172.27.6.108",
+    "original_mac": "c0:74:ad:16:a2:b7",
+    "mac": "c074ad16a2b6"
+  },
+  {
+    "ip": "172.27.6.109",
+    "original_mac": "c0:74:ad:16:a2:87",
+    "mac": "c074ad16a286"
+  },
+  {
+    "ip": "172.27.6.110",
+    "original_mac": "c0:74:ad:16:a2:a5",
+    "mac": "c074ad16a2a4"
+  },
+  {
+    "ip": "172.27.6.111",
+    "original_mac": "c0:74:ad:16:a2:bd",
+    "mac": "c074ad16a2bc"
+  },
+  {
+    "ip": "172.27.6.113",
+    "original_mac": "c0:74:ad:16:a0:b7",
+    "mac": "c074ad16a0b6"
+  },
+  {
+    "ip": "172.27.6.118",
+    "original_mac": "c4:93:00:00:7b:2e",
+    "mac": "c49300007b2d"
+  },
+  {
+    "ip": "172.27.6.126",
+    "original_mac": "c4:93:00:00:74:29",
+    "mac": "c49300007428"
+  },
+  {
+    "ip": "172.27.6.132",
+    "original_mac": "c0:74:ad:16:a0:f3",
+    "mac": "c074ad16a0f2"
+  },
+  {
+    "ip": "172.27.6.147",
+    "original_mac": "c0:74:ad:16:a5:5d",
+    "mac": "c074ad16a55c"
+  },
+  {
+    "ip": "172.27.6.159",
+    "original_mac": "c0:74:ad:16:aa:17",
+    "mac": "c074ad16aa16"
+  },
+  {
+    "ip": "172.27.6.160",
+    "original_mac": "c0:74:ad:16:aa:09",
+    "mac": "c074ad16aa8"
+  },
+  {
+    "ip": "172.27.6.161",
+    "original_mac": "c0:74:ad:16:a9:ef",
+    "mac": "c074ad16a9ee"
+  },
+  {
+    "ip": "172.27.6.162",
+    "original_mac": "c0:74:ad:16:aa:15",
+    "mac": "c074ad16aa14"
+  },
+  {
+    "ip": "172.27.6.172",
+    "original_mac": "c4:93:00:00:b9:11",
+    "mac": "c4930000b910"
+  },
+  {
+    "ip": "172.27.6.174",
+    "original_mac": "c0:74:ad:16:a1:21",
+    "mac": "c074ad16a120"
+  },
+  {
+    "ip": "172.27.6.175",
+    "original_mac": "c0:74:ad:16:a5:4b",
+    "mac": "c074ad16a54a"
+  },
+  {
+    "ip": "172.27.6.176",
+    "original_mac": "c0:74:ad:16:a5:4d",
+    "mac": "c074ad16a54c"
+  },
+  {
+    "ip": "172.27.6.177",
+    "original_mac": "c0:74:ad:16:a5:43",
+    "mac": "c074ad16a542"
+  },
+  {
+    "ip": "172.27.6.178",
+    "original_mac": "c0:74:ad:16:a5:09",
+    "mac": "c074ad16a58"
+  },
+  {
+    "ip": "172.27.6.180",
+    "original_mac": "c0:74:ad:16:a9:a3",
+    "mac": "c074ad16a9a2"
+  },
+  {
+    "ip": "172.27.6.181",
+    "original_mac": "c0:74:ad:16:a9:8f",
+    "mac": "c074ad16a98e"
+  },
+  {
+    "ip": "172.27.6.182",
+    "original_mac": "c0:74:ad:16:a9:ad",
+    "mac": "c074ad16a9ac"
+  },
+  {
+    "ip": "172.27.6.184",
+    "original_mac": "c0:74:ad:16:a9:dd",
+    "mac": "c074ad16a9dc"
+  },
+  {
+    "ip": "172.27.6.185",
+    "original_mac": "c0:74:ad:16:a9:db",
+    "mac": "c074ad16a9da"
+  },
+  {
+    "ip": "172.27.6.186",
+    "original_mac": "c0:74:ad:16:a9:bf",
+    "mac": "c074ad16a9be"
+  },
+  {
+    "ip": "172.27.6.187",
+    "original_mac": "c0:74:ad:16:a9:d3",
+    "mac": "c074ad16a9d2"
+  },
+  {
+    "ip": "172.27.6.189",
+    "original_mac": "c0:74:ad:16:a9:e3",
+    "mac": "c074ad16a9e2"
+  },
+  {
+    "ip": "172.27.6.190",
+    "original_mac": "c0:74:ad:16:a9:cf",
+    "mac": "c074ad16a9ce"
+  },
+  {
+    "ip": "172.27.6.192",
+    "original_mac": "c4:93:00:00:7e:4f",
+    "mac": "c49300007e4e"
+  },
+  {
+    "ip": "172.27.6.194",
+    "original_mac": "c0:74:ad:16:a9:09",
+    "mac": "c074ad16a98"
+  },
+  {
+    "ip": "172.27.6.195",
+    "original_mac": "c0:74:ad:16:a9:a7",
+    "mac": "c074ad16a9a6"
+  },
+  {
+    "ip": "172.27.6.200",
+    "original_mac": "c0:74:ad:16:ab:33",
+    "mac": "c074ad16ab32"
+  },
+  {
+    "ip": "172.27.6.201",
+    "original_mac": "c0:74:ad:16:ab:15",
+    "mac": "c074ad16ab14"
+  },
+  {
+    "ip": "172.27.6.202",
+    "original_mac": "c0:74:ad:16:ab:35",
+    "mac": "c074ad16ab34"
+  },
+  {
+    "ip": "172.27.6.205",
+    "original_mac": "c0:74:ad:16:ab:27",
+    "mac": "c074ad16ab26"
+  },
+  {
+    "ip": "172.27.6.207",
+    "original_mac": "c4:93:00:00:21:1a",
+    "mac": "c49300002119"
+  },
+  {
+    "ip": "172.27.6.208",
+    "original_mac": "c0:74:ad:16:ab:29",
+    "mac": "c074ad16ab28"
+  },
+  {
+    "ip": "172.27.6.210",
+    "original_mac": "c0:74:ad:16:a9:cb",
+    "mac": "c074ad16a9ca"
+  },
+  {
+    "ip": "172.27.6.211",
+    "original_mac": "c0:74:ad:16:a9:d9",
+    "mac": "c074ad16a9d8"
+  },
+  {
+    "ip": "172.27.6.212",
+    "original_mac": "c0:74:ad:16:a9:d1",
+    "mac": "c074ad16a9d0"
+  },
+  {
+    "ip": "172.27.6.213",
+    "original_mac": "c0:74:ad:16:a9:6d",
+    "mac": "c074ad16a96c"
+  },
+  {
+    "ip": "172.27.6.215",
+    "original_mac": "c0:74:ad:16:a9:b3",
+    "mac": "c074ad16a9b2"
+  },
+  {
+    "ip": "172.27.6.216",
+    "original_mac": "c0:74:ad:16:a9:3f",
+    "mac": "c074ad16a93e"
+  },
+  {
+    "ip": "172.27.6.217",
+    "original_mac": "c0:74:ad:16:ab:1f",
+    "mac": "c074ad16ab1e"
+  },
+  {
+    "ip": "172.27.6.219",
+    "original_mac": "c0:74:ad:16:ab:25",
+    "mac": "c074ad16ab24"
+  },
+  {
+    "ip": "172.27.6.220",
+    "original_mac": "c0:74:ad:16:ab:0d",
+    "mac": "c074ad16abc"
+  },
+  {
+    "ip": "172.27.6.221",
+    "original_mac": "c0:74:ad:16:ab:05",
+    "mac": "c074ad16ab4"
+  },
+  {
+    "ip": "172.27.6.222",
+    "original_mac": "c0:74:ad:16:ab:0f",
+    "mac": "c074ad16abe"
+  },
+  {
+    "ip": "172.27.6.224",
+    "original_mac": "c0:74:ad:16:a8:fb",
+    "mac": "c074ad16a8fa"
+  },
+  {
+    "ip": "172.27.6.225",
+    "original_mac": "c0:74:ad:16:a9:b7",
+    "mac": "c074ad16a9b6"
+  },
+  {
+    "ip": "172.27.6.230",
+    "original_mac": "c0:74:ad:16:a0:cd",
+    "mac": "c074ad16a0cc"
+  },
+  {
+    "ip": "172.27.6.234",
+    "original_mac": "c0:74:ad:16:a0:f9",
+    "mac": "c074ad16a0f8"
+  },
+  {
+    "ip": "172.27.6.235",
+    "original_mac": "c0:74:ad:16:a0:fd",
+    "mac": "c074ad16a0fc"
+  },
+  {
+    "ip": "172.27.6.237",
+    "original_mac": "c0:74:ad:16:a2:ab",
+    "mac": "c074ad16a2aa"
+  },
+  {
+    "ip": "172.27.6.238",
+    "original_mac": "c0:74:ad:16:a0:e5",
+    "mac": "c074ad16a0e4"
+  },
+  {
+    "ip": "172.27.6.239",
+    "original_mac": "c0:74:ad:16:ab:b5",
+    "mac": "c074ad16abb4"
+  },
+  {
+    "ip": "172.27.6.243",
+    "original_mac": "c0:74:ad:25:18:27",
+    "mac": "c074ad251826"
+  },
+  {
+    "ip": "172.27.6.244",
+    "original_mac": "c0:74:ad:22:13:1f",
+    "mac": "c074ad22131e"
+  },
+  {
+    "ip": "172.27.6.246",
+    "original_mac": "c0:74:ad:25:18:13",
+    "mac": "c074ad251812"
+  },
+  {
+    "ip": "172.27.6.247",
+    "original_mac": "c0:74:ad:25:18:25",
+    "mac": "c074ad251824"
+  },
+  {
+    "ip": "172.27.6.248",
+    "original_mac": "c0:74:ad:25:17:eb",
+    "mac": "c074ad2517ea"
+  },
+  {
+    "ip": "172.27.6.249",
+    "original_mac": "c0:74:ad:25:17:85",
+    "mac": "c074ad251784"
+  },
+  {
+    "ip": "172.27.7.9",
+    "original_mac": "00:04:f2:60:5a:15",
+    "mac": "0004f2605a14"
+  },
+  {
+    "ip": "172.27.7.81",
+    "original_mac": "00:04:f2:60:5b:e7",
+    "mac": "0004f2605be6"
+  },
+  {
+    "ip": "172.27.7.82",
+    "original_mac": "00:04:f2:67:c7:d7",
+    "mac": "0004f267c7d6"
+  },
+  {
+    "ip": "172.27.7.149",
+    "original_mac": "00:04:f2:60:5b:f9",
+    "mac": "0004f2605bf8"
+  },
+  {
+    "ip": "172.27.7.162",
+    "original_mac": "c4:93:00:00:75:79",
+    "mac": "c49300007578"
+  },
+  {
+    "ip": "172.27.7.168",
+    "original_mac": "00:04:f2:60:08:1f",
+    "mac": "0004f260081e"
+  },
+  {
+    "ip": "172.27.7.186",
+    "original_mac": "c4:93:00:00:c1:42",
+    "mac": "c4930000c141"
+  },
+  {
+    "ip": "172.27.7.189",
+    "original_mac": "c4:93:00:00:6f:d0",
+    "mac": "c49300006fcf"
+  },
+  {
+    "ip": "172.27.7.194",
+    "original_mac": "c4:93:00:00:40:e8",
+    "mac": "c493000040e7"
+  },
+  {
+    "ip": "172.27.7.195",
+    "original_mac": "c4:93:00:00:24:26",
+    "mac": "c49300002425"
+  },
+  {
+    "ip": "172.27.7.197",
+    "original_mac": "c4:93:00:00:7b:5e",
+    "mac": "c49300007b5d"
+  },
+  {
+    "ip": "172.27.7.198",
+    "original_mac": "c4:93:00:00:bf:a1",
+    "mac": "c4930000bfa0"
+  },
+  {
+    "ip": "172.27.7.212",
+    "original_mac": "00:04:f2:60:58:c8",
+    "mac": "0004f26058c7"
+  },
+  {
+    "ip": "172.27.7.214",
+    "original_mac": "c4:93:00:00:c0:be",
+    "mac": "c4930000c0bd"
+  },
+  {
+    "ip": "172.27.7.234",
+    "original_mac": "00:04:f2:60:59:40",
+    "mac": "0004f260593f"
+  },
+  {
+    "ip": "172.27.7.246",
+    "original_mac": "c4:93:00:00:36:dd",
+    "mac": "c493000036dc"
+  },
+  {
+    "ip": "172.27.7.250",
+    "original_mac": "c4:93:00:00:ca:f3",
+    "mac": "c4930000caf2"
+  }
+]
