@@ -1,6 +1,6 @@
 import "reflect-metadata";
 import { ObjectType, Field, ID } from "type-graphql";
-import { IsMACAddress } from "class-validator";
+import { IsMACAddress , IsIP} from "class-validator";
 import { IsValidRoomNumber } from "./validators/IsValidRoomNumber";
 
 @ObjectType()
@@ -12,7 +12,14 @@ export class Phone {
   @IsMACAddress({ no_colons: true })
   mac_address: string;
 
-  @Field()
+  @Field({ nullable: true })
   @IsValidRoomNumber()
-  room_number: string;
+  room_id: number;
+
+  @Field({ nullable: true })
+  @IsIP({version : "4"})
+  ip: string?;
+
+  @Field((type) => Date)
+  updatedAt: Date;
 }
