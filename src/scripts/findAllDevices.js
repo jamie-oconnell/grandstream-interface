@@ -47,18 +47,18 @@ fs = require("fs");
   this.ConvertBase = ConvertBase;
 })(this);
 
-find("172.27.5.1-172.27.7.250").then((devices) => {
-  const newDevices = devices.map((device) => {
-    const removedColon = device.mac.replace(/:/g, "");
-    const last2mac = removedColon.substring(removedColon.length - 2);
-    console.log(last2mac);
-    const deviceLast2Mac = ConvertBase.hex2dec(last2mac) - 1;
-    const newDeviceLast2Mac = ConvertBase.dec2hex(deviceLast2Mac);
-
-    const newDevice = removedColon.slice(0, -2) + newDeviceLast2Mac;
-    return { ip: device.ip, original_mac: device.mac, mac: newDevice };
+module.exports = () => {
+  return new Promise((resolve, reject) => {
+    find("172.27.5.1-172.27.7.250").then((devices) => {
+      const newDevices = devices.map((device) => {
+        const removedColon = device.mac.replace(/:/g, "");
+        const last2mac = removedColon.substring(removedColon.length - 2);
+        const deviceLast2Mac = ConvertBase.hex2dec(last2mac) - 1;
+        const newDeviceLast2Mac = ConvertBase.dec2hex(deviceLast2Mac);
+        const newDevice = removedColon.slice(0, -2) + newDeviceLast2Mac;
+        return { ip: device.ip, original_mac: device.mac, mac: newDevice };
+      });
+      return resolve(newDevices);
+    });
   });
-  fs.writeFile("devices.json", JSON.stringify(newDevices), function (err) {
-    if (err) return console.log(err);
-  });
-});
+};
