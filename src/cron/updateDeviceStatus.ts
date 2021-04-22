@@ -16,6 +16,7 @@ export const updateDeviceStatus = () => {
         )
           .then((res) => res.json())
           .then((json) => console.log(json));
+
         //   const scannedDevice = devices.find(
         //     (x: Phone) => x.mac_address === device.mac
         //   );
