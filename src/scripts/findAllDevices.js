@@ -49,7 +49,7 @@ fs = require("fs");
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
-    find("172.27.5.1-172.27.7.250").then((devices) => {
+    find().then((devices) => {
       const newDevices = devices.map((device) => {
         const removedColon = device.mac.replace(/:/g, "");
         const last2mac = removedColon.substring(removedColon.length - 2);

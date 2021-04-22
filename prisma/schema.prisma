@@ -16,7 +16,10 @@ model User {
 model Phone {
   id          Int    @default(autoincrement()) @id
   mac_address String @unique
+  status String @default("Unknown")
+  ip String?
   Room        Room?
+  updatedAt DateTime @updatedAt
 }
 
 model Room {
