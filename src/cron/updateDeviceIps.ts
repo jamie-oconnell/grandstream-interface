@@ -6,8 +6,9 @@ import _ from "lodash";
 export const updateDeviceIps = () => {
   return new Promise(async (resolve, reject) => {
     try {
-      console.log("Running Update Device Ips");
+      console.log("Running Update Device Ips...");
       const devices = await findAllDevices();
+      const foundDevices = devices;
       console.log(
         `Scanned all devices on the network, found total of ${devices.length} devices`
       );
@@ -15,8 +16,13 @@ export const updateDeviceIps = () => {
       console.log(
         `Looked up all devices in database, found total of ${databaseDevices.length} devices`
       );
+      console.log("Updating known devices...");
       for (const device of databaseDevices) {
         const scannedDevice = _.find(devices, ["mac", device.mac_address]);
+        const scannedDeviceIndex = _.findIndex(devices, [
+          "mac",
+          device.mac_address,
+        ]);
         if (scannedDevice === undefined) {
           console.log(`Cannot find ${device.mac_address} on the network`);
           if (device.status !== "DISCONNECTED") {
@@ -49,7 +55,41 @@ export const updateDeviceIps = () => {
             console.log(error);
           }
         }
+        if (scannedDeviceIndex !== -1) {
+          foundDevices.splice(scannedDeviceIndex, 1);
+          if (device.status !== "ONLINE") {
+            try {
+              const updatedPhone = await context.prisma.phone.update({
+                where: { id: device.id },
+                data: { status: "ONLINE" },
+              });
+              console.log(
+                `Updated ${updatedPhone.mac_address} status to ${updatedPhone.status}`
+              );
+            } catch (error) {
+              console.log(error);
+            }
+          }
+        }
       }
+      console.log(`Found ${foundDevices.length} devices not in database`);
+      for (const newDevice of foundDevices) {
+        try {
+          const discoveredDevice = await context.prisma.phone.create({
+            data: {
+              mac_address: newDevice.mac,
+              ip: newDevice.ip,
+              status: "DISCOVERED",
+            },
+          });
+          console.log(
+            `Added discovered device ${discoveredDevice.mac_address}`
+          );
+        } catch (error) {
+          console.log(error);
+        }
+      }
+
       return resolve("Done");
     } catch (error) {
       console.log(error);

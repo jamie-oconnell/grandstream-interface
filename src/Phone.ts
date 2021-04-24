@@ -20,6 +20,9 @@ export class Phone {
   @IsIP("4")
   ip?: string;
 
+  @Field()
+  status: string;
+
   @Field((type) => Date)
   updatedAt: Date;
 }
