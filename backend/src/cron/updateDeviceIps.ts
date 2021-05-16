@@ -25,28 +25,28 @@ export const updateDeviceIps = () => {
         ]);
         if (scannedDevice === undefined) {
           console.log(`Cannot find ${device.mac_address} on the network`);
-          if (device.status !== "DISCONNECTED") {
-            try {
-              const updatedPhone = await context.prisma.phone.update({
-                where: { id: device.id },
-                data: { status: "DISCONNECTED" },
-              });
-              console.log(
-                `Updated ${updatedPhone.mac_address} status to disconnected`
-              );
-            } catch (error) {
-              console.log(error);
-            }
-          } else {
+          try {
+            const updatedPhone = await context.prisma.phone.update({
+              where: { id: device.id },
+              data: {
+                status: "DISCONNECTED",
+                lastCheckedAt: new Date().toISOString(),
+              },
+            });
             console.log(
-              `Device ${device.mac_address} already has status disconnected`
+              `Updated ${updatedPhone.mac_address} status to disconnected`
             );
+          } catch (error) {
+            console.log(error);
           }
         } else if (device.ip !== scannedDevice.ip) {
           try {
             const updatedPhone = await context.prisma.phone.update({
               where: { id: device.id },
-              data: { ip: scannedDevice.ip },
+              data: {
+                ip: scannedDevice.ip,
+                lastCheckedAt: new Date().toISOString(),
+              },
             });
             console.log(
               `Updated ${updatedPhone.mac_address} ip to ${updatedPhone.ip}`
@@ -57,18 +57,19 @@ export const updateDeviceIps = () => {
         }
         if (scannedDeviceIndex !== -1) {
           foundDevices.splice(scannedDeviceIndex, 1);
-          if (device.status !== "ONLINE") {
-            try {
-              const updatedPhone = await context.prisma.phone.update({
-                where: { id: device.id },
-                data: { status: "ONLINE" },
-              });
-              console.log(
-                `Updated ${updatedPhone.mac_address} status to ${updatedPhone.status}`
-              );
-            } catch (error) {
-              console.log(error);
-            }
+          try {
+            const updatedPhone = await context.prisma.phone.update({
+              where: { id: device.id },
+              data: {
+                status: "ONLINE",
+                lastCheckedAt: new Date().toISOString(),
+              },
+            });
+            console.log(
+              `Updated ${updatedPhone.mac_address} status to ${updatedPhone.status}`
+            );
+          } catch (error) {
+            console.log(error);
           }
         }
       }
@@ -80,6 +81,7 @@ export const updateDeviceIps = () => {
               mac_address: newDevice.mac,
               ip: newDevice.ip,
               status: "DISCOVERED",
+              lastCheckedAt: new Date().toISOString(),
             },
           });
           console.log(

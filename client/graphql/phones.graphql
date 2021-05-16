@@ -1,0 +1,15 @@
+query Phones($searchString: String) {
+  phones(searchString: $searchString) {
+    id
+    mac_address
+    ip
+    room {
+      id
+      number
+      updatedAt
+    }
+    status
+    updatedAt
+    lastCheckedAt
+  }
+}

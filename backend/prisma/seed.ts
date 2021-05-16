@@ -1,15 +1,15 @@
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 const rooms = [
-  {
-    number: "501",
-  },
-  {
-    number: "502",
-  },
-  {
-    number: "503",
-  },
+  // {
+  //   number: "501",
+  // },
+  // {
+  //   number: "502",
+  // },
+  // {
+  //   number: "503",
+  // },
   {
     number: "504",
   },

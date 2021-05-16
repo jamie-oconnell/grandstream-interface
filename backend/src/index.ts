@@ -7,19 +7,39 @@ import serveIndex from "serve-index";
 import { DateTimeResolver } from "graphql-scalars";
 import { context } from "./context";
 import { GraphQLScalarType } from "graphql";
-import { PhoneResolver, SortOrder, PhoneCreateInput } from "./PhoneResolver";
+import {
+  PhoneResolver,
+  SortOrder as PhoneSortOrder,
+  PhoneCreateInput,
+  PhoneUpdateInput,
+} from "./PhoneResolver";
+import {
+  RoomResolver,
+  SortOrder as RoomSortOrder,
+  RoomCreateInput,
+} from "./RoomResolver";
 import cron from "node-cron";
 import performCronJobs from "./cron";
 import { generateDeployFiles } from "./cron/generateDeployFiles";
 require("dotenv").config();
 
 const startApolloServer = async () => {
-  tq.registerEnumType(SortOrder, {
-    name: "SortOrder",
+  tq.registerEnumType(PhoneSortOrder, {
+    name: "PhoneSortOrder",
+  });
+  tq.registerEnumType(RoomSortOrder, {
+    name: "RoomSortOrder",
   });
 
   const schema = await tq.buildSchema({
-    resolvers: [UserResolver, PhoneResolver, PhoneCreateInput],
+    resolvers: [
+      UserResolver,
+      PhoneResolver,
+      PhoneCreateInput,
+      PhoneUpdateInput,
+      RoomResolver,
+      RoomCreateInput,
+    ],
     scalarsMap: [{ type: GraphQLScalarType, scalar: DateTimeResolver }],
   });
 
@@ -42,6 +62,6 @@ const startApolloServer = async () => {
 //   performCronJobs();
 // });
 // performCronJobs();
-generateDeployFiles();
+// generateDeployFiles();
 
 startApolloServer();

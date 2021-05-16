@@ -26,6 +26,19 @@ export class PhoneCreateInput {
 }
 
 @InputType()
+export class PhoneUpdateInput {
+  @Field({ nullable: true })
+  id?: number;
+
+  @Field({ nullable: true })
+  @IsMACAddress({ no_colons: true })
+  mac_address?: string;
+
+  @Field({ nullable: true })
+  room_id?: number;
+}
+
+@InputType()
 class PhoneOrderByUpdatedAtInput {
   @Field((type) => SortOrder)
   updatedAt: SortOrder;
@@ -57,7 +70,8 @@ export class PhoneResolver {
       ? {
           OR: [
             { mac_address: { contains: searchString } },
-            { room_number: { contains: searchString } },
+            { ip: { contains: searchString } },
+            { room: { number: { contains: searchString } } },
           ],
         }
       : {};
@@ -66,9 +80,27 @@ export class PhoneResolver {
       where: {
         ...or,
       },
+      include: {
+        room: true,
+      },
       take: take || undefined,
       skip: skip || undefined,
       orderBy: orderBy || undefined,
+    });
+  }
+
+  @Mutation((returns) => Phone)
+  async updatePhone(@Arg("data") data: PhoneUpdateInput, @Ctx() ctx: Context) {
+    return ctx.prisma.phone.update({
+      where: {
+        id: data.id,
+      },
+      data: {
+        room: { connect: { id: data.room_id } },
+      },
+      include: {
+        room: true,
+      },
     });
   }
 
@@ -78,11 +110,9 @@ export class PhoneResolver {
     return ctx.prisma.phone.create({
       data: {
         mac_address: data.mac_address,
-        // Room: {
-        //   connect: {
-        //     id: data.room_id ? data.room_id : undefined,
-        //   },
-        // },
+        room: {
+          connect: { id: data.room_id },
+        },
       },
     });
   }

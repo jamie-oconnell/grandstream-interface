@@ -18,13 +18,16 @@ model Phone {
   mac_address String @unique
   status String @default("Unknown")
   ip String?
-  Room        Room?
+  room    Room?
+  lastCheckedAt DateTime?
   updatedAt DateTime @updatedAt
 }
 
 model Room {
   id     Int    @default(autoincrement()) @id
   number String @unique
-  phone  Int?   @unique
-  Phone  Phone? @relation(fields: [phone], references: [id])
+  phoneid  Int?   @unique
+  phone  Phone? @relation(fields: [phoneid], references: [id])
+  updatedAt DateTime @updatedAt
+
 }
