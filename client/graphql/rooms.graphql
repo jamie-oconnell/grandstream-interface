@@ -1,8 +1,7 @@
-query Rooms {
-  rooms {
+query Rooms($searchString: String) {
+  rooms(searchString: $searchString) {
     id
     number
     updatedAt
   }
 }
-

@@ -4,7 +4,7 @@ import { EllipsisOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 dayjs.extend(relativeTime);
-import { usePhonesQuery } from "../generated";
+import { usePhonesQuery, useUpdatePhoneMutation } from "../generated";
 import { useDebounce } from "react-use";
 import PhoneActionsMenu from "../components/PhoneActionsMenu";
 import RoomSelect from "../components/RoomSelect";
@@ -33,8 +33,14 @@ const showDeleteConfirm = () => {
 const phones = (props: Props) => {
   const [searchText, setSearchText] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
+  const [roomSelectValue, setRoomSelectValue] = useState("");
   const [editRoomNumberMacAddress, setEditRoomNumberMacAddress] = useState("");
   const [isEditRoomModalVisisble, setIsEditRoomModalVisisble] = useState(false);
+  const { data: updatedPhoneData, mutate } = useUpdatePhoneMutation({
+    onSuccess: () => {
+      refetch();
+    },
+  });
 
   const [editRoomNumberForm] = Form.useForm();
 
@@ -102,28 +108,46 @@ const phones = (props: Props) => {
     },
   ];
 
-  const showEditRoomModal = (macAddress: string) => {
+  const showEditRoomModal = (
+    id: number,
+    macAddress: string,
+    room_number?: number | null
+  ) => {
     setIsEditRoomModalVisisble(true);
-    editRoomNumberForm.setFieldsValue({ mac_address: macAddress });
+    editRoomNumberForm.setFieldsValue({
+      id: id,
+      mac_address: macAddress,
+      room_number: room_number,
+    });
   };
 
   const handleSaveEditRoomModal = () => {
     setIsEditRoomModalVisisble(false);
+    editRoomNumberForm.submit();
+  };
+
+  const handlleRoomSelectChange = (newValue) => {
+    setRoomSelectValue(newValue);
+    editRoomNumberForm.setFieldsValue({ room_number: newValue });
   };
 
   const handleCancelEditRoomModal = () => {
     setIsEditRoomModalVisisble(false);
+    setRoomSelectValue("");
+    editRoomNumberForm.setFieldsValue({ room_number: undefined });
   };
 
   const onFinish = (values: any) => {
-    console.log("Success:", values);
+    mutate({ data: { id: values.id, room_id: values.room_number } });
+    setRoomSelectValue("");
+    editRoomNumberForm.setFieldsValue({ room_number: undefined });
   };
 
   const onFinishFailed = (errorInfo: any) => {
     console.log("Failed:", errorInfo);
   };
 
-  const { data, isLoading, isSuccess, error } = usePhonesQuery(
+  const { data, isLoading, isSuccess, error, refetch } = usePhonesQuery(
     { searchString: searchQuery },
     {
       // Refetch the data every 30 secs
@@ -154,11 +178,17 @@ const phones = (props: Props) => {
           onFinish={onFinish}
           onFinishFailed={onFinishFailed}
         >
+          <Form.Item name="id" style={{ display: "none" }}>
+            <></>
+          </Form.Item>
           <Form.Item label="Mac Address" name="mac_address">
             <Input disabled value={editRoomNumberMacAddress} />
           </Form.Item>
           <Form.Item label="Room Number" name="room_number">
-            <RoomSelect />
+            <RoomSelect
+              value={roomSelectValue}
+              handleChange={handlleRoomSelectChange}
+            />
           </Form.Item>
         </Form>
       </Modal>

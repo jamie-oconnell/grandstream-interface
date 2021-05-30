@@ -1,24 +1,34 @@
 import React from "react";
-import DebounceSelect from "./DebounceSelect";
+import { Select } from "antd";
+import { useRoomsQuery } from "../generated";
 
-interface Props {}
-
-interface RoomValue {
-  label: string;
+interface Props {
   value: string;
+  handleChange: (string) => void;
 }
 
-const RoomSelect = (props: Props) => {
-  const [value, setValue] = React.useState<RoomValue[]>([]);
+const RoomSelect = ({ value, handleChange }: Props) => {
+  const { data, isLoading, isSuccess, error } = useRoomsQuery();
+  console.log(data);
 
   return (
-    <DebounceSelect
-      mode="multiple"
+    <Select
+      showSearch
       value={value}
-      placeholder="Select users"
-      fetchOptions={fetchUserList}
+      placeholder="Select room"
+      options={
+        data &&
+        data.rooms.map((room) => {
+          return { label: room.number, value: room.id };
+        })
+      }
+      filterOption={(input, option) =>
+        option.label.toString().toLowerCase().indexOf(input.toLowerCase()) >=
+          0 ||
+        option.label.toString().toLowerCase().indexOf(input.toLowerCase()) >= 0
+      }
       onChange={(newValue) => {
-        setValue(newValue);
+        handleChange(newValue);
       }}
       style={{ width: "100%" }}
     />
@@ -26,43 +36,3 @@ const RoomSelect = (props: Props) => {
 };
 
 export default RoomSelect;
-
-// Usage of DebounceSelect
-
-async function fetchUserList(username: string): Promise<RoomValue[]> {
-  console.log("fetching user", username);
-
-  return fetch("https://randomuser.me/api/?results=5")
-    .then((response) => response.json())
-    .then((body) =>
-      body.results.map(
-        (user: {
-          name: { first: string; last: string };
-          login: { username: string };
-        }) => ({
-          label: `${user.name.first} ${user.name.last}`,
-          value: user.login.username,
-        })
-      )
-    );
-}
-
-const fetchRoomList = async (search: string): Promise<RoomValue[]> => {
-  console.log("fetching rooms", search);
-
-  
-
-  return fetch("https://randomuser.me/api/?results=5")
-    .then((response) => response.json())
-    .then((body) =>
-      body.results.map(
-        (user: {
-          name: { first: string; last: string };
-          login: { username: string };
-        }) => ({
-          label: `${user.name.first} ${user.name.last}`,
-          value: user.login.username,
-        })
-      )
-    );
-};

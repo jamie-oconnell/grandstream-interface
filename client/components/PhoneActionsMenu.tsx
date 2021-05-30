@@ -3,7 +3,11 @@ import { Menu } from "antd";
 import { DeleteOutlined, EditOutlined, RedoOutlined } from "@ant-design/icons";
 
 interface Props {
-  showEditRoomModal: (macAddress: string) => void;
+  showEditRoomModal: (
+    id: number,
+    macAddress: string,
+    room_number: number
+  ) => void;
   showDeleteConfirm: () => void;
   record: any;
 }
@@ -17,7 +21,11 @@ const PhoneActionsMenu = ({
     <Menu>
       <Menu.Item
         onClick={() => {
-          showEditRoomModal(record.mac_address);
+          showEditRoomModal(
+            record.id,
+            record.mac_address,
+            record.room && record.room.number
+          );
         }}
         icon={<EditOutlined />}
       >

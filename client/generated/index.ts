@@ -1,4 +1,4 @@
-import { useQuery, UseQueryOptions } from 'react-query';
+import { useQuery, UseQueryOptions, useMutation, UseMutationOptions } from 'react-query';
 export type Maybe<T> = T | null;
 export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
 export type MakeOptional<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]?: Maybe<T[SubKey]> };
@@ -88,7 +88,7 @@ export type Phone = {
 
 export type PhoneCreateInput = {
   mac_address: Scalars['String'];
-  room_id?: Maybe<Scalars['Float']>;
+  room_id?: Maybe<Scalars['ID']>;
 };
 
 export type PhoneOrderByUpdatedAtInput = {
@@ -101,9 +101,9 @@ export enum PhoneSortOrder {
 }
 
 export type PhoneUpdateInput = {
-  id?: Maybe<Scalars['Float']>;
+  id?: Maybe<Scalars['ID']>;
   mac_address?: Maybe<Scalars['String']>;
-  room_id?: Maybe<Scalars['Float']>;
+  room_id?: Maybe<Scalars['ID']>;
 };
 
 export type Query = {
@@ -191,7 +191,26 @@ export type PhonesQuery = (
   )> }
 );
 
-export type RoomsQueryVariables = Exact<{ [key: string]: never; }>;
+export type UpdatePhoneMutationVariables = Exact<{
+  data: PhoneUpdateInput;
+}>;
+
+
+export type UpdatePhoneMutation = (
+  { __typename?: 'Mutation' }
+  & { updatePhone: (
+    { __typename?: 'Phone' }
+    & Pick<Phone, 'id'>
+    & { room?: Maybe<(
+      { __typename?: 'Room' }
+      & Pick<Room, 'number'>
+    )> }
+  ) }
+);
+
+export type RoomsQueryVariables = Exact<{
+  searchString?: Maybe<Scalars['String']>;
+}>;
 
 
 export type RoomsQuery = (
@@ -232,9 +251,27 @@ export const usePhonesQuery = <
       fetcher<PhonesQuery, PhonesQueryVariables>(PhonesDocument, variables),
       options
     );
+export const UpdatePhoneDocument = `
+    mutation UpdatePhone($data: PhoneUpdateInput!) {
+  updatePhone(data: $data) {
+    id
+    room {
+      number
+    }
+  }
+}
+    `;
+export const useUpdatePhoneMutation = <
+      TError = unknown,
+      TContext = unknown
+    >(options?: UseMutationOptions<UpdatePhoneMutation, TError, UpdatePhoneMutationVariables, TContext>) => 
+    useMutation<UpdatePhoneMutation, TError, UpdatePhoneMutationVariables, TContext>(
+      (variables?: UpdatePhoneMutationVariables) => fetcher<UpdatePhoneMutation, UpdatePhoneMutationVariables>(UpdatePhoneDocument, variables)(),
+      options
+    );
 export const RoomsDocument = `
-    query Rooms {
-  rooms {
+    query Rooms($searchString: String) {
+  rooms(searchString: $searchString) {
     id
     number
     updatedAt

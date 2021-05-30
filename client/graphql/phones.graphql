@@ -13,3 +13,12 @@ query Phones($searchString: String) {
     lastCheckedAt
   }
 }
+
+mutation UpdatePhone($data: PhoneUpdateInput!) {
+  updatePhone(data: $data) {
+    id
+    room {
+      number
+    }
+  }
+}
