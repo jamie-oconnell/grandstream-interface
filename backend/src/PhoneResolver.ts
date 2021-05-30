@@ -10,10 +10,12 @@ import {
   Int,
   InputType,
   Field,
+  ID,
 } from "type-graphql";
 import { Phone } from "./Phone";
 import { Context } from "./context";
 import { IsMACAddress } from "class-validator";
+import { generateDeployFile } from "./cron/generateDeployFile";
 
 @InputType()
 export class PhoneCreateInput {
@@ -21,21 +23,21 @@ export class PhoneCreateInput {
   @IsMACAddress({ no_colons: true })
   mac_address: string;
 
-  @Field({ nullable: true })
+  @Field((type) => ID, { nullable: true })
   room_id?: number;
 }
 
 @InputType()
 export class PhoneUpdateInput {
-  @Field({ nullable: true })
-  id?: number;
+  @Field((type) => ID)
+  id: string;
 
   @Field({ nullable: true })
   @IsMACAddress({ no_colons: true })
   mac_address?: string;
 
-  @Field({ nullable: true })
-  room_id?: number;
+  @Field((type) => ID, { nullable: true })
+  room_id?: string;
 }
 
 @InputType()
@@ -91,17 +93,25 @@ export class PhoneResolver {
 
   @Mutation((returns) => Phone)
   async updatePhone(@Arg("data") data: PhoneUpdateInput, @Ctx() ctx: Context) {
-    return ctx.prisma.phone.update({
-      where: {
-        id: data.id,
-      },
-      data: {
-        room: { connect: { id: data.room_id } },
-      },
-      include: {
-        room: true,
-      },
-    });
+    const updated = ctx.prisma.phone
+      .update({
+        where: {
+          id: parseInt(data.id),
+        },
+        data: {
+          room: {
+            connect: { id: data.room_id ? parseInt(data.room_id) : undefined },
+          },
+        },
+        include: {
+          room: true,
+        },
+      })
+      .then((updatedPhone: any) => {
+        generateDeployFile(updatedPhone);
+      });
+
+    return updated;
   }
 
   @Mutation((returns) => Phone)
